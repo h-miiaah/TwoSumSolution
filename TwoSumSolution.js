@@ -14,3 +14,12 @@
         map.set(num1, i);
     }
 };
+
+/**
+
+    - Create a map to store the number and its index.
+    - Loop through the array and for each number, we calculate the expected number that should come after it.
+    - If the expected number is in the map, we have found a solution and return the indices of both numbers.
+    - If not, we store the current number and its index in the map.
+
+ **/
